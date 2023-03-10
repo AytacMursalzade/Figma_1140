@@ -42,6 +42,15 @@
 }
 .main_text{
     margin-left: 85px;
+    
+}
+.main_one {
+    position: relative;
+}
+.main_one .cornersvgimg{
+    position: absolute;
+    bottom: -30px;
+    left: -9px;
 }
 .main_one{
     width: 100%;
@@ -91,9 +100,19 @@
     padding-top: 13px;
     padding-left: 0px;
 }
-
+/* .main_image{
+    position: relative;
+}
 .main_image img{
+    position: absolute;
+    right: 12px;
+    top: 9px;
+} */
+.main_image .person_komp{
     margin-right: 110px;
+    width: 100%;
+    height: 743px;
+    margin-top: -110px;
 }
 
 .main_two{
@@ -220,8 +239,15 @@
     margin-top: 199px;
 }
 .phone_text{
+  
     margin: 159px 0px 0px 123px;
 
+}
+.phone_text_robotik{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .phone_text .robotik{
     width: 58px;
@@ -240,21 +266,28 @@
 .robotik img{
   width: 26px;
   height: 26px;
-  margin-top: 16px;
+  margin-top: 10px;
   margin-right: 3px;
 }
 .phone_text .iconmen_ul ul li{
     display: inline-block;
 }
 
-.phone_text .iconmen_ul ul li h1{
+.phone_text .iconmen_ul h1{
     font-size: 17px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+.phone_text .iconmen_ul span{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #868686;
 }
 
 .phone_imsvg img{
-    width: 735px;
+    width: 861px;
     height: 511px;
     margin-right: 5px;
 }
@@ -330,7 +363,17 @@
     width: 572px;
     height: 400px;
     background-color: #1090CB; 
-    border-radius: 20px;  
+    border-radius: 20px; 
+    position: relative; 
+}
+.second_div img{
+    position: absolute;
+    top: -68px;
+    right: -8px;
+}
+img{
+    width: 120px;
+    height: 120px;
 }
 .second_div h1{
     font-size: 25px;
@@ -386,7 +429,7 @@
     height: 185px;
 }
 
-.text_submit{
+.text_submit{     
     width: 100%;
     height: 534px;
     background-color: #E8F4FA;
@@ -400,6 +443,24 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     padding: 148px 463px 295px 461px;
+}
+.text_submit .starix{
+    position: absolute;
+    top: -35px;
+    left: 166px;
+}
+.text_submit .starix{
+    width: 66px;
+    height: 66px;
+}
+.text_submit .purpleimg{
+    width: 54px;
+    height: 54px;
+}
+.text_submit .purpleimg{
+    position: absolute;
+    top: 71px;
+    left: 936px;
 }
 #fname{
     width: 532px;
@@ -424,6 +485,9 @@
     width: 100%;
     height: 252px;
     border-bottom: 1px solid #D2D2D2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     
 }
 .project{
@@ -454,7 +518,8 @@
     width: 12%;
     display: inline-block;
     position: relative;
-    bottom: 16px;
+    bottom: -8px;
+    margin-right: 5px;
 }
 
 .About_us_prj h1{
@@ -501,15 +566,23 @@
 }
 
 .Icon_us_prj{
-    width: 32%;
-    display: inline-block;
-    background-color: #00329B;
-    
+    width: 27%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;  
 }
-.Icon_us_prj ul {
+.Icon_us_prj img{
+    width: 34px;
+    height: 34px;
+}
+.Icon_us_prj ul li{
+    display: inline-block;
+    padding: 34px;
     width: 6px;
     height: 12px;
     border-radius: 14px;
+    margin-bottom: 116px;
 } 
 
 .copyright{

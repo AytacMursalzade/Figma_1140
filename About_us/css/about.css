@@ -10,7 +10,14 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+.projection_picture{
+    position: relative;
+}
+.projection_picture .greencorner{
+    position: absolute;
+    top: -151px;
+    right: -79px;
+}
 .lesson_picture ul li{
    display: inline-block;
 }
@@ -50,7 +57,6 @@
     color: #868686;
 }
 .projection_picture ul li{
-   
     padding: 19px;
 }
 
@@ -59,6 +65,12 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+}
+.main_gr .bluecrn{
+    position: absolute;
+    top: 74px;
+    left: -226px;
 }
 .main_gr img{
     width: 521px;
@@ -90,7 +102,6 @@
 .application{
     width: 100%;
     margin-left: 123px;
-    /* margin-right: 52px; */
     margin-bottom: 197px;
     display: flex;
     flex-direction: row;
@@ -183,4 +194,48 @@
     width: 41px;
     height: 41px;
     
+}
+.text_submit{     
+    width: 100%;
+    height: 534px;
+    background-color: #E8F4FA;
+    text-align: center;
+    margin-bottom: 87px;
+    position: relative;
+}
+
+.text_submit img{
+    position: absolute;
+    top: -41px;
+    left: 166px;
+}
+.text_submit .purpleimg{
+    position: absolute;
+    top: 71px;
+    left: 936px;
+}
+.text_submit h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 148px 463px 295px 461px;
+}
+#fname{
+    width: 532px;
+    height: 67px;
+}
+#submitclass{
+    width: 172px;
+    height: 67px;
+    color: white;
+    background-color: #000000;
+}
+
+.text_submit form input{
+    padding: 20px;
+    position: relative;
+    top: -164px;
+    border-radius: 10px;
+    border:1px solid white;
+    margin-bottom: 20px;
 }

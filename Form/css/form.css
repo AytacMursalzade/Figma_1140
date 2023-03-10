@@ -31,8 +31,20 @@
     font-weight: 400;
     color: #777777;
 }
+.image_h2_tags{
+    position: relative;
+}
 
-.image_h2_tags img{
+.image_h2_tags .redline{
+    position: absolute;
+    top: 315px;
+    right: 255px;
+}
+.redline{
+    width: 48px;
+    height: 48px;
+}
+.image_h2_tags .map{
     width: 608px;
     height: 391px;
 }
