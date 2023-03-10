@@ -474,9 +474,7 @@
 }
 
 
-.Contact_us_prj{
-    width: 25%;
-}
+
 .Contact_us_prj{
     width: 26%;
     display: inline-block;
@@ -502,16 +500,17 @@
     color: #515151;
 }
 
-/* .Icon_us_prj{
-    width: 18%;
-    background-color: #00329B;
-}
-.Icon_us_prj ul li i{
+.Icon_us_prj{
+    width: 32%;
     display: inline-block;
+    background-color: #00329B;
+    
+}
+.Icon_us_prj ul {
     width: 6px;
     height: 12px;
     border-radius: 14px;
-} */
+} 
 
 .copyright{
     width: 100%;
