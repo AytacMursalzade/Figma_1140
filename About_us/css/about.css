@@ -1,0 +1,186 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.section_div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lesson_picture ul li{
+   display: inline-block;
+}
+
+.lesson_picture ul {
+    margin-left: 89px;
+    margin-top: 156px;
+}
+.lesson_picture .small {
+    width: 247px;
+    height: 259px;
+    margin-right: 50px;
+}
+.lesson_picture .big {
+    width: 288px;
+    height: 346px;
+    
+}
+
+.projection_picture ul{
+    margin-top: 169px;
+}
+.projection_picture ul li p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #1090CB;
+}
+.projection_picture ul li h1{
+    margin-bottom: 37px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.projection_picture ul li span{
+    font-size: 18px;
+    font-weight: 400;
+    color: #868686;
+}
+.projection_picture ul li{
+   
+    padding: 19px;
+}
+
+.main_gr{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main_gr img{
+    width: 521px;
+    height: 346px;
+    padding: 51px;
+}
+
+.write_version{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-left: 123px;
+    margin-bottom: 187px;
+}
+.write_version h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: #1090CB;
+    margin-bottom: 48px;
+}
+.write_version p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #585858;
+    
+}
+
+.application{
+    width: 100%;
+    margin-left: 123px;
+    /* margin-right: 52px; */
+    margin-bottom: 197px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text_ipsum{
+    width: 50%;
+}
+.text_ipsum h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.text_ipsum p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #585858;
+    margin-bottom: 62px;
+}
+.text_ipsum button{
+    width: 193px;
+    height: 51px;
+    padding: 11px 38px;
+    border: 1px solid #1090CB;
+    border-radius: 10px;
+    
+}
+.text_ipsum button p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1090CB;    
+    
+}
+.first_second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 78px;
+    
+    
+}
+.image_ipsum{
+    width: 80%;
+    margin-left: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.webapplication{
+    width: 90px;
+    height: 91px;
+    background-color: #FFF2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.webapplication img{
+    width: 41px;
+    height: 41px;
+    
+}
+.image_ipsum h1{
+   font-size: 25px;
+   font-weight: 500;
+   color: #2E0D64;
+   margin-left: 29px;
+}
+
+.image_ipsumAplicasion{
+    width: 80%;
+    margin-left: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.webapplication{
+    width: 90px;
+    height: 91px;
+    background-color: #FFF2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.webapplication img{
+    width: 41px;
+    height: 41px;
+    
+}
