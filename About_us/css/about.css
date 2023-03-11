@@ -15,8 +15,8 @@
 }
 .projection_picture .greencorner{
     position: absolute;
-    top: -151px;
-    right: -79px;
+    top: 73px !important;
+    right: -103px !important;
 }
 .lesson_picture ul li{
    display: inline-block;
@@ -26,7 +26,8 @@
     margin-left: 89px;
     margin-top: 156px;
 }
-.lesson_picture .small {
+
+.lesson_picture .small_ing {
     width: 247px;
     height: 259px;
     margin-right: 50px;
@@ -204,15 +205,15 @@
     position: relative;
 }
 
-.text_submit img{
+.text_submit .stra_img{
     position: absolute;
-    top: -41px;
-    left: 166px;
+    top: -61px !important;
+    left: 166px !important;
 }
 .text_submit .purpleimg{
     position: absolute;
-    top: 71px;
-    left: 936px;
+    top: 87px !important;
+    left: 917px !important;
 }
 .text_submit h1{
     font-size: 30px;
