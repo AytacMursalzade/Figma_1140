@@ -1,4 +1,4 @@
-@import url(../Figma_1140/main/css/reset.css);
-@import url(../Figma_1140/main/css/figma.css);
-@import url(../Figma_1140/About_us/css/about.css);
-@import url(../Figma_1140/Ser_Figma/css/sevices.css);
+@import url(./main/css/reset.css);
+@import url(./main/css/figma.css);
+@import url(./About_us/css/about.css);
+@import url(./Ser_Figma/css/sevices.css);  
