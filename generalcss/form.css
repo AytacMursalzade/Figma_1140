@@ -80,7 +80,7 @@
 }
 
 .frm_aside{
-    width: 100%;
+    width: 112%;
     padding: 54px 651px 0px 654px;
 }
 
@@ -91,9 +91,15 @@
     color: #000000;
 }
 .frm_aside p{
+    margin-top: 29px;
+    margin-bottom: 79px;
     font-size: 13px;
     font-weight: 500;
     color: #777777;
+}
+.frm_aside form input{
+    width: 322px;
+    height: 56px;
 }
 .telephn p{
     margin-left: 29px;
